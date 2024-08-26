@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.section-title {
+    margin-bottom: 30px;
+}
+
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.accordion-button:not(.collapsed) {
+    color: #0f3460;
+    background-color: #e0e0e0;
+}
+
+.btn-primary {
+    background-color: #ff6600;
+    border-color: #ff6600;
+}
+
+.btn-primary:hover {
+    background-color: #e05c00;
+    border-color: #e05c00;
+}
+
+.bg-dark {
+    background-color: #1a1a2e !important;
+}
+
+.bg-secondary {
+    background-color: #162447 !important;
+}
+
+.text-primary {
+    color: #ff6600 !important;
+}
